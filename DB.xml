@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><db>
+	<user isAdmin="0" login="user" password="user123"/>
+	<user isAdmin="1" login="admin" password="admin123"/>
+	<event id="0"><username>user1</username><eventname>event2</eventname><date>2017-06-04</date><rating>2</rating></event>
+	<event id="1"><username>user2</username><eventname>event5</eventname><date>2017-06-11</date><rating>3</rating></event>
+	<event id="2"><username>admin</username><eventname>New event!!!!</eventname><date>2017-06-11</date><rating>2</rating></event></db>
