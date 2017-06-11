@@ -1,13 +1,29 @@
-myapplication
+MyEventApp
 ==============
 
 Template for a simple Vaadin application that only requires a Servlet 3.0 container to run.
+The application allows you to add new events and edit existing ones from the admin level.
 
+Options:
+
+-Add a new event (as normal user and admin)
+-Edit an existing events (as an admin)
+-Find an event that interests you
+
+Normal user credentials:
+login: user
+password: user123
+
+Admin user credentials:
+login: admin
+password: admin123
+
+The XML file "DB.xml" is used as the event information and user information database.
 
 Workflow
 ========
 
-To compile the entire project, run "mvn install".
+To compile the entire project, run "mvn install" inside project folder.
 
 To run the application, run "mvn jetty:run" and open http://localhost:8080/ .
 
